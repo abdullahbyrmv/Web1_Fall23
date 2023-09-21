@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+<body>
+    
+    <form action="">
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name=fname required placeholder="Enter first name">
+        <br> 
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name">
+
+        <br>
+
+        <fieldset>
+            <legend>Select Your Gender</legend>
+            <input type="radio" id="gender_male" name="gender" value="MALE" checked> <label for="gender_male">Male</label><br>
+            <input type="radio" id="gender_female" name="gender" value="FEMALE"> <labeL for="gender_female">Female</labeL><br>
+            <input type="radio" id="gender_other" name="gender" value="OTHER"> <label for="gender_other">Other</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which Programming Languages You Know</legend>
+            <label for="lang_java"> <input type="checkbox" name="lang" id="lang_java" value="JAVA">JAVA</label>
+            <label for="lang_c++"><input type="checkbox" name="lang" id="lang_c++" value="C++"> C++</label>
+            <label for="lang_javascript"><input type="checkbox" name="lang" id="lang_javascript" value="JAVASCRIPT">JAVASCRIPT</label>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="SEND">
+    </form>
+
+</body>
+</html>
