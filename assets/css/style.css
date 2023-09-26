@@ -1,0 +1,23 @@
+hr{
+    width: 90%;
+    height: 3px;
+    background-color: blue;
+    border-color: blue;
+}
+
+h3{
+    color:brown;
+}
+
+.title{
+    color:blue;
+}
+
+body{
+    background-color: brown;
+}
+
+ol.topics>li{
+    list-style-type: upper-alpha;
+    color:aqua;
+}
