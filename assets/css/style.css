@@ -1,23 +1,49 @@
-hr{
-    width: 90%;
-    height: 3px;
-    background-color: blue;
-    border-color: blue;
+hr {
+  width: 90%;
+  height: 3px;
+  background-color: blue;
+  border-color: blue;
 }
 
-h3{
-    color:brown;
+h3 {
+  color: brown;
 }
 
-.title{
-    color:blue;
+.title {
+  color: blue;
 }
 
-body{
-    background-color: brown;
+body {
+  background-color: aqua;
 }
 
-ol.topics>li{
-    list-style-type: upper-alpha;
-    color:aqua;
+a {
+  color: red;
 }
+
+a:visited {
+  color: blue;
+}
+
+ol.topics > li {
+  list-style-type: upper-alpha;
+  color: aqua;
+}
+
+p {
+  font-family: "Kablammo", cursive;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  padding: 5px 10px 5px 20px;
+  background-color: white;
+  margin: 5px 10px;
+  box-sizing: border-box;
+}
+
+table h2 {
+  font-family: "Raleway", "sans-serf";
+  font-weight: 400;
+  font-style: italic;
+  font-size: xx-large;
+}
+
