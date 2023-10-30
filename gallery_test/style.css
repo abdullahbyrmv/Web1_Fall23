@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #prevButton, #nextButton {
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px 30px;
+    background-color: #3498db; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #prevButton:hover, #nextButton:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  #prevButton:disabled, #nextButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #galleryImage {
+    max-width: 100%;
+    height: auto;
+  }
