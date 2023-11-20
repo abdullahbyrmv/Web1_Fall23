@@ -1,4 +1,4 @@
-const images = ["../assets/images/pp.jpg", "https://picsum.photos/id/237/200/300.jpg", "image3.jpg"]; // Add your image URLs here
+const images = ["./images/logo.png", "https://picsum.photos/id/237/200/300.jpg", "./images/pp.jpg"]; // Add your image URLs here
 let currentImageIndex = 0;
 
 const prevButton = document.getElementById("prevButton");

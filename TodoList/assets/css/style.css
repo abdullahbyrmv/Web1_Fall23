@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5rem;
+}
+
+.container {
+    width: 35%;
+    background-color: white;
+    padding: 3rem ;
+}
+
+.container>h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 4px 6px;
+    border: 1px cadetblue solid;
+    border-radius: 6px;
+    flex: 3
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: cadetblue;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin-top: 3rem;
+    padding-left: 0;
+}
+
+li {
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+li p {
+    padding: 0;
+    margin: 0;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
